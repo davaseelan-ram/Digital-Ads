@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Davaseelan Ramamoorthy</h1>
-<h3 align="center">A passionate Frontend Developer from India having 6+ years of working experience</h3>
+<h3 align="center">A passionate Frontend Developer having 6+ years of working experience</h3>
 
 - 🔭 I’m currently Looking for new role on **Berlin and across Germany**
 
