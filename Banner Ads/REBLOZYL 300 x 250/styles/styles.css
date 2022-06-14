@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/* CSS Document */
+img{border:0px}
+body {
+    position: relative;
+    border:0 none;
+    outline:0;
+    padding:0;
+    margin:auto;
+    background: #000000;
+    background-color:transparent;
+}
+#container{
+    position: absolute;
+    width:300px;
+    height:250px;
+	margin: auto;
+	position: relative;
+    overflow: hidden;
+	cursor:pointer;
+}
+
+#background {
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 0px;
+    left: 0px;
+/*    background: url(../images/frame5bg.jpg) no-repeat;
+*/	
+}
+#border{
+    position: absolute;
+    width: 300px;
+    height:250px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:1px solid #666666;
+    z-index: 100;
+}
+#mds-logo{position:absolute;left: 44px;top: 87px;z-index:99; background-size: 100% 100%;}
+#mds-img1{position:absolute;right: -14px;top: -111px;z-index:99;background-size: 100% 100%;}
+#mds-img2{position:absolute;left: -40px;top: 84px;z-index:99; background-size: 100% 100%; opacity: 1;}
+.img2{width:418px; }
+#mds-img3{position:absolute;left:0px;top:0px;z-index:100; background-size: 100% 100%;}
+#mds-img4{position:absolute;left:0px;top:0px;z-index:100; opacity: 0;background-size: 100% 100%;}
+#mds-img5{position:absolute;left:0px;bottom:0px;z-index:97;height: 0;background-size: 100% 100%; mix-blend-mode:multiply ;
+	opacity: 0;
+	-webkit-animation: bgop 2s ease-in-out 1s forwards;
+}
+
+
+@keyframes bgop {
+	0% {
+   bottom:0px;
+   opacity: 0;
+	}
+	100% {
+	bottom: 250px;
+	opacity: 0.5;
+
+	}
+   }
+
+#mds-img6{position:absolute;left:0px;top:0px;z-index:100; opacity: 0; background-size: 100% 100%;}
+#mds-img7{position:absolute;left:0px;top:0px;z-index:100; opacity: 0; background-size: 100% 100%;}
+#mds-img8{position:absolute;left:0px;top:0px;z-index:100; opacity: 0; background-size: 100% 100%;}
+/*#mds-img9{position:absolute;left:0px;bottom:0px;z-index:97;height: 0; background-size: 100% 100%; mix-blend-mode:color;
+	opacity: 0;
+	-webkit-animation: bgop1 6s ease-in-out 4s forwards;
+}
+*/
+
+@keyframes bgop1 {
+	0% {
+   bottom:0px;
+   opacity: 0;
+	}
+	
+
+
+	
+
+	100% {
+	bottom: 600px;
+	opacity: 0.2;
+
+	}
+   }
+
+
+
+
+/*#mds-txt1{position:absolute;left:9px;bottom:175px;z-index:101; opacity:0; font: bold 20px arial; color:#FFFFFF; line-height: 20px; letter-spacing: -0.4px; text-shadow: 4px 4px 8px #000000;}
+#mds-txt1 sup{font-size:10px;}
+#mds-txt2{position:absolute;left:-109px;top:92px;z-index:102; opacity:0; font: bold 31px arial; color:#60269e; line-height: 31px; letter-spacing: -0.4px; }
+#mds-txt2 .big{font-size:93px; line-height:88px;}
+#mds-txt2 .big sup{font-size:50px; line-height:63px;}
+#mds-txt2 .small{font-size:31px; font-weight:normal;}
+#mds-txt3{position:absolute;left:5px;bottom:-15px;z-index:102; opacity:0; font:normal 9px arial; color:#FFFFFF; line-height: 16px; letter-spacing: -0.4px; text-align:center }*/
+
+
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+#section-2.moveTop {
+  transform: translate(0px, -250px);
+  -webkit-transform: translate(0px, -250px);
+  -ms-transform: translate(0px, -250px);
+  -moz-transform: translate(0px, -250px);
+}
+/* section-2 starts here */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			SECTION 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#section-2 {
+	bottom: -249px;
+	  right: 1px;
+	  
+	position: absolute;
+	width: 294px;
+	height: 93px;
+	min-height: 65px;
+	background: #FFF url(../img/isi_shadow.png) repeat-x top;
+	font-family: arial;
+	font-size: 100%;
+	padding: 0px 4px 0px 0px;
+	z-index: 102;
+    background-size: 3px;
+    transition: all 1s linear !important;
+	-webkit-transition: all 1s linear !important;
+	-moz-transition: all 1s linear !important;
+	-o-transition: all 1s linear !important;
+	-webkit-box-shadow: inset -3px 9px 10px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -3px 9px 10px -8px rgba(0,0,0,0.75);
+	box-shadow: inset -3px 9px 10px -8px rgba(0,0,0,0.75);
+}
+#section-2.fadeOut {
+	z-index: 99;
+}
+
+#sTitle {
+	font-size: 12px;
+	/* AS PER OUR STANDERDS WE SET 11PX FOR TITLE TEXT. EVEN THE PSD HAS DIFFERENT SIZE*/
+	color: #60269e;
+	font-weight: bold;
+	position: relative;
+/*    width: 101%;*/
+    left: 4px;
+    line-height: 14px;
+    top: -2px;
+	padding: 5px 0px 8px 5px;
+	/*background: #ebebeb;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;*/
+}
+
+#isiActionBtn {
+/* 	font-size: 10px; */
+	font-size: 11px;
+	position: absolute;
+	right: 4px;
+	top: 1px;
+	color: #000000;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+#scrollableArea {
+	width: 254px;
+ 	height: 178px; 
+	-webkit-transition: height .3s;
+	-moz-transition: height .3s;
+	-o-transition: height .3s;
+	-ms-transition: height .3s;
+	transition: height .3s;
+}
+
+#scrollableArea.expandContainer {
+	height: 161px;
+}
+
+#scrollableContent {
+	width: 284px;
+	height: 66px;
+    padding: 0 0 0 1px; 
+    margin-top: -7px; 
+	overflow: hidden;
+	position: absolute;
+	font-family: arial;
+	line-height: 12px;
+/*	right: 8px;*/
+	left: 8px;
+	-webkit-transition: height .3s;
+	-moz-transition: height .3s;
+	-o-transition: height .3s;
+	-ms-transition: height .3s;
+	transition: height .3s;
+cursor: default;
+}
+
+#scrollableArea.expandContainer #scrollableContent {
+	height: 154px;
+}
+
+#scroller {
+	width: 94%;
+/* 	font-size: 10px; */
+	font-size: 11px;
+	padding: 0px 0px;
+}
+
+#scroller .inner_title {
+	margin-top: 4px;
+	margin-bottom: 7px;
+}
+
+.text_bold {
+	font-weight: bold;
+}
+
+#scrollableArea #scroller .para_1 {
+	margin-top: 0px;
+}
+
+.white_patch {
+	width: 98%;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#scroller h3 {
+	font-size: 11px;
+	color: #000000;
+	margin-bottom: 1px;
+    margin-top: 4px;
+}
+
+#scroller h3.bottom-5{
+	margin-bottom: 5px;
+}
+#scroller .color1{
+    margin-top: 4px;
+	color: #e31394;
+}
+#scroller .color2{
+	color: #60269e;
+}
+
+#scroller p {
+	line-height: 13px;
+	margin-bottom: 6px;
+	margin-top: 4px;
+	margin-right: 2px;
+}
+#scroller p.center a {
+	letter-spacing: -0.02em;
+}
+#scroller p:before {
+	text-indent: 2em;
+	list-style-type: disc;
+	display: list-item;
+	margin-left: 2em;
+}
+
+#scroller .marg_align {
+	margin-top: -5px;
+}
+
+#scroller a {
+	color: #0006ff;
+	outline: none;
+}
+
+#scroller sup {
+	position: relative;
+	top: 1px;
+	vertical-align: super;
+	font-size: 6px;
+	font-weight: bold;
+	line-height: 0;
+}
+
+#scroller ul.defaultList {
+	list-style: none;
+	padding: 0px;
+}
+
+#scroller ul.defaultList li {
+	list-style: none;
+	padding-left: 10px;
+	position: relative;
+	margin-bottom: 8px;
+}
+
+#scroller ul.defaultList li:after {
+	position: absolute;
+	top: 4px;
+	left: 3px;
+	content: "";
+	width: 3px;
+	height: 3px;
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+#scroller ul.splList {
+	margin-bottom: 8px;
+	list-style: none;
+}
+
+#scroller ul.splList li {
+	margin-bottom: 1px;
+	list-style: none;
+	position: relative;
+	padding-left: 7px;
+}
+
+#scroller ul.splList li:after {
+	content: "-";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#scroller .isi_meta {
+	margin-bottom: 3px;
+	letter-spacing: -0.03em;
+}
+.padding-bot7{ 
+    padding-bottom: 7px;
+}
+
+#scroller img {
+	margin: 9px 0px 7px 0px;
+}
+
+#scroller .nowrap {
+	white-space: nowrap;
+}
+
+#scroller ul {
+	padding: 0;
+	margin: 4px 0px 0px 0px;
+}
+
+#scroller p.top-8{
+	margin-top: 8px;
+}
+
+#clickTag {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 101;
+}
+
+/*
+#scroller ul.splList {
+	margin-bottom:8px;	
+	list-style:none;
+}
+*/
+
+#scroller ul li {
+	margin-bottom: 2px;
+	background: url("../img/bullet_circle.png") no-repeat 1px 4px;
+	background-size: 3px 3px;
+	list-style: none;
+	padding-left: 7px;
+	color: #000000;
+}
+#scroller ul li:not(:last-child){
+	margin-bottom: 3px;
+}
+
+.iScrollVerticalScrollbar {
+	position: absolute;
+	z-index: 9999;
+	width: 10px;
+	bottom: 0px;
+	top: 2px;
+	right: 0px;
+	overflow: hidden
+}
+
+.iScrollIndicator {
+	position: absolute;
+}
+
+.iScrollVerticalScrollbar .iScrollIndicator {
+	width: 5px;
+	background-color: #e31394;	
+height: 8px !important;}
+
+.iScrollLoneScrollbar {
+	background-color: #7094aa;
+	width: 5px
+}
+
+
+#scrollableContent::-webkit-scrollbar-track {
+	background-color: #cccccc
+}
+
+#scrollableContent::-webkit-scrollbar {
+	width: 10px;
+	background: url(../img/scroll_hand.png) no-repeat;
+}
+
+#scrollableContent::-webkit-scrollbar-thumb {
+	background: url(../img/scroll_hand.png) no-repeat;
+}
+
+.subTitle {
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#piLink {
+/*     font-size: 9px; */
+	font-size: 10px;
+    bottom: 0px;
+    /* left: 0px; */
+    position: absolute;
+    z-index: 101;
+    width: 300px;
+    background-color: #60269d;
+    font-family: Arial;
+    color: #fff;
+    /* letter-spacing: -0.01em; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+	line-height: 11px;
+	/*border-top: 1px solid #999;*/
+text-align: left;padding-right: 0px !important;padding-left: 10px !important;}
+/*#piLink div {
+	width: 100%;
+	height: 100%;
+	bottom: 1px;
+    left: 0px;
+    position: absolute;
+}*/
+#piLink a {
+	color: #fff;
+	text-decoration: none;
+}
+#piLink a:before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    top: 7px;
+    left: 163px;
+    background: url(../images/bullet_tri.png) no-repeat;
+    background-size: contain;
+}
+#scroller img {
+	background-size:100% 100%; 
+    margin: 9px 0px 7px 0px;
+}
+
+
+
+.center{
+    text-align: center;
+}
+.top-space{
+    padding-top: 0px;
+}
+.mt-10 {
+	margin-top: 10px !important;
+}
+
+/***************************** cross browser ****************************/
+
+@-moz-document url-prefix() {
+   #piLink{
+	 letter-spacing: -0.002em;
+    } 
+    #scrollableContent{
+    	height: 66px;
+    }
+    .windows #scrollableContent{
+    	height: 66px;
+    } 
+}
+
+
+/*~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+			ISI CLONED VIEW FOR QA
+				~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~*/
+
+#clonedISIForQA {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+}
+
+#clonedISIForQA>a {
+	font-family: Arial;
+/* 	font-size: 14px; */
+	font-size: 11px;
+}
+
+#clonedISIForQA>p {
+	font-family: Arial;
+	font-size: 11px;
+	max-width: 220px;
+	padding: 5px 5px;
+	border-bottom: solid #CCC 1px;
+	margin-bottom: 5px;
+}
+
+#clonedISIForQA #scrollableContent {
+	height: auto;
+	overflow: visible;
+	font-family: Arial, sans-serif;
+}
+
+#clonedISIForQA #scrollableContent #scroller {
+	-webkit-transform: translate(0px, 0px) translateZ(0px) !important;
+	-moz-transform: translate(0px, 0px) translateZ(0px) !important;
+	-o-transform: translate(0px, 0px) translateZ(0px) !important;
+	-ms-transform: translate(0px, 0px) translateZ(0px) !important;
+	transform: translate(0px, 0px) translateZ(0px) !important;
+}
+
+#clonedISIForQA .iScrollVerticalScrollbar {
+	display: none;
+}
+
+.isiLogo {
+	width: 150px !important;
+}
+.isiLogo1 {
+	width: 90px !important;
+}
+#scroller sup {
+	top: 0px;
+}
